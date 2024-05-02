@@ -41,6 +41,7 @@ header {
 }
 
 .allnav {
+    padding: 20px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,18 +53,26 @@ header {
     width: 100%;
 }
 
-#links {
-    width: 50%;
-}
-
 #logo {
     width: 25%;
 }
 
-#login {
+#links {
+    width: 50%;
+}
+
+.hLogin {
     width: 25%;
     text-align: right;
+    color: black;
 } 
+
+.bLogin {
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+}
 
 a {
     color: white;
