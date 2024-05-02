@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'gg sans Normal', sans-serif;
 }
 
 .container {
@@ -10,15 +10,7 @@
     height: 100vh;
 }
 
-/* header rules */
-
-header {
-    background-image: url(../img/jumbo.png);
-    height: 80%;
-    background-size: cover;
-}
-
-/* color and border*/
+/* colors and border*/
 
 .pink {
     background-color: pink;
@@ -30,6 +22,32 @@ header {
 
 .dodgerblue {
     background-color: dodgerblue;
+}
+
+.whiteButton {
+    font-family: 'gg sans bold', sans-serif;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.blackButton {
+    font-family: 'gg sans bold', sans-serif;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+/* header rules */
+
+header {
+    background-image: url(../img/jumbo.png);
+    height: 80%;
+    background-size: cover;
 }
 
 /* main nav */
@@ -67,13 +85,6 @@ header {
     color: black;
 } 
 
-.bLogin {
-    border: none;
-    padding: 10px;
-    font-size: 20px;
-    border-radius: 25px;
-}
-
 a {
     color: white;
     padding: 0px 20px;
@@ -93,12 +104,27 @@ ul {
     width: 100%;
 }
 
+.hTitle {
+    font-family: 'gg sans bold', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+.hParagraph {
+    color: white;
+    font-family: 'gg sans bold', sans-serif;
+    padding: 60px 50px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
 .download {
     margin: 50px 0px;
     width: 50%;
     height: 80%;
-    background-color: violet;
+    /* background-color: violet; */
     border-radius: 5px;
+    text-align: center;
 }
 
 /* template rules */
