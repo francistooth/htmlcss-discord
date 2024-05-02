@@ -104,13 +104,25 @@ ul {
     width: 100%;
 }
 
-.hTitle {
+.blackTitle {
+    font-family: 'gg sans bold', sans-serif;
+    font-size: 60px;
+}
+
+.blackParagraph {
+    font-family: 'gg sans bold', sans-serif;
+    padding: 60px 50px;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.whiteTitle {
     font-family: 'gg sans bold', sans-serif;
     color: white;
     font-size: 60px;
 }
 
-.hParagraph {
+.whiteParagraph {
     color: white;
     font-family: 'gg sans bold', sans-serif;
     padding: 60px 50px;
