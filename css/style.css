@@ -6,11 +6,15 @@
 }
 
 .container {
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
 }
 
-/* colors and border*/
+/* utilities */
+
+.fill {
+    object-fit: cover;
+}
 
 .pink {
     background-color: pink;
@@ -40,6 +44,32 @@
     padding: 20px;
     font-size: 20px;
     border-radius: 50px;
+}
+
+.blackTitle {
+    font-family: 'gg sans bold', sans-serif;
+    font-size: 60px;
+}
+
+.blackParagraph {
+    font-family: 'gg sans bold', sans-serif;
+    padding: 40px 0px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.whiteTitle {
+    font-family: 'gg sans bold', sans-serif;
+    color: white;
+    font-size: 60px;
+}
+
+.whiteParagraph {
+    color: white;
+    font-family: 'gg sans bold', sans-serif;
+    padding: 60px 50px;
+    font-size: 22px;
+    line-height: 35px;
 }
 
 /* header rules */
@@ -76,6 +106,9 @@ header {
 }
 
 #links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 50%;
 }
 
@@ -104,32 +137,6 @@ ul {
     width: 100%;
 }
 
-.blackTitle {
-    font-family: 'gg sans bold', sans-serif;
-    font-size: 60px;
-}
-
-.blackParagraph {
-    font-family: 'gg sans bold', sans-serif;
-    padding: 60px 50px;
-    font-size: 22px;
-    line-height: 35px;
-}
-
-.whiteTitle {
-    font-family: 'gg sans bold', sans-serif;
-    color: white;
-    font-size: 60px;
-}
-
-.whiteParagraph {
-    color: white;
-    font-family: 'gg sans bold', sans-serif;
-    padding: 60px 50px;
-    font-size: 22px;
-    line-height: 35px;
-}
-
 .download {
     margin: 50px 0px;
     width: 50%;
@@ -146,20 +153,21 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: white;
+    height: 90%;
 }
 
 .templateImg {
     margin: 50px 0px;
     width: 35%;
-    height: 500px;
+    height: 80%;
     border-radius: 5px;
+    row-gap: 100px;
 }
 
 .templateText {
     margin: 50px 0px;
     width: 25%;
-    height: 500px;
-    border-radius: 5px;
+    height: 70%;
 }
 
 /* rTemplate rules */
