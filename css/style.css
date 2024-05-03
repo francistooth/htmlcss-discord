@@ -1,13 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
     font-family: 'gg sans Normal', sans-serif;
+    box-sizing: border-box;
 }
 
 .container {
-    width: 99vw;
-    height: 100vh;
+    width: 100%;
 }
 
 /* utilities */
@@ -16,24 +15,14 @@
     object-fit: cover;
 }
 
-.pink {
-    background-color: pink;
-}
-
-.dashed {
-    border: 3px dashed black;
-}
-
-.dodgerblue {
-    background-color: dodgerblue;
-}
-
 .whiteButton {
     font-family: 'gg sans bold', sans-serif;
     border: none;
     padding: 20px;
     font-size: 20px;
     border-radius: 50px;
+    background-color: white;
+    color: black;
 }
 
 .blackButton {
@@ -44,18 +33,6 @@
     padding: 20px;
     font-size: 20px;
     border-radius: 50px;
-}
-
-.blackTitle {
-    font-family: 'gg sans bold', sans-serif;
-    font-size: 60px;
-}
-
-.blackParagraph {
-    font-family: 'gg sans bold', sans-serif;
-    padding: 40px 0px;
-    font-size: 20px;
-    line-height: 35px;
 }
 
 .whiteTitle {
@@ -97,7 +74,7 @@ header {
 }
 
 .mainNav {
-    font-size: 20px;
+    font-size: 15px;
     width: 100%;
 }
 
@@ -106,6 +83,7 @@ header {
 }
 
 #links {
+    text-decoration: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -135,6 +113,7 @@ ul {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding-bottom: 100px;
 }
 
 .download {
@@ -149,33 +128,44 @@ ul {
 /* template rules */
 
 .template {
+    margin: 100px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 120px;
     background-color: white;
-    height: 90%;
+}
+
+.grey {
+    padding: 100px 0px;
+    background-color: lightgrey;
+}
+
+.blackTitle {
+    font-family: 'gg sans bold', sans-serif;
+    font-size: 40px;
+}
+
+.blackParagraph {
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .templateImg {
-    margin: 50px 0px;
+    /* margin: 100px 0px; */
     width: 35%;
-    height: 80%;
-    border-radius: 5px;
-    row-gap: 100px;
+}
+
+.img-template-item {
+    width: 100%;
+    object-fit: contain;
 }
 
 .templateText {
-    margin: 50px 0px;
+    /* margin: 100px 0px; */
     width: 25%;
     height: 70%;
-}
-
-/* rTemplate rules */
-
-#reverse {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: lightgrey;
 }
 
 /* together rules */
