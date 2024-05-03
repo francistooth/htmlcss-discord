@@ -131,7 +131,6 @@ ul {
     margin: 100px 0px;
     display: flex;
     justify-content: center;
-    align-items: center;
     column-gap: 120px;
     background-color: white;
 }
@@ -141,7 +140,7 @@ ul {
     background-color: lightgrey;
 }
 
-.blackTitle {
+h1.blackTitle {
     font-family: 'gg sans bold', sans-serif;
     font-size: 40px;
 }
@@ -150,6 +149,7 @@ ul {
     padding-top: 20px;
     font-weight: bold;
     font-size: 20px;
+    width: 70%;
 }
 
 .templateImg {
@@ -174,14 +174,38 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90%;
     background-color: lightgrey;
 }
 
 .together {
-    height: 90%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 60%;
-    background-color: forestgreen;
+}
+
+.togetherText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tUtil {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.starsText {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}
+
+h2.blackTitle {
+    font-family: 'gg sans bold', sans-serif;
+    font-size: 30px;
 }
 
 /* first footer rules */
